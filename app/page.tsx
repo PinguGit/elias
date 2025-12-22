@@ -85,7 +85,7 @@ export default function Page() {
             <img
               src="./IMG_5429.jpeg"
               alt="Small moments"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover scale-[0.9]"
               style={{ objectPosition: 'center 30%' }}
             />
           </div>

@@ -18,7 +18,7 @@ export default function Page() {
                 src="./IMG_5815.jpeg"
                 alt="Us"
                 className="absolute inset-0 w-full h-full object-cover object-center opacity-80"
-                style={{ transform: 'scale(1.10)', transformOrigin: 'center center', objectPosition: 'center 30%' }}
+                style={{ transform: 'scale(1)', transformOrigin: 'center center', objectPosition: 'center 30%' }}
               />
             </div>
           </div>

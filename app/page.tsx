@@ -89,8 +89,8 @@ export default function Page() {
               <img
                 src="./IMG_5429.jpeg"
                 alt="Small moments"
-                className="w-full h-full object-cover"
-                style={{ objectPosition: 'center 30%', objectFit: 'scale-down' }}
+                className="w-full h-full object-cover scale-[0.9]"
+                style={{ objectPosition: 'center 30%' }}
               />
             </div>
             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">

@@ -89,7 +89,7 @@ export default function Page() {
               <img
                 src="./IMG_5429.jpeg"
                 alt="Small moments"
-                className="w-full h-full object-cover object-center"
+                className="w-full h-full object-center"
                 style={{ objectFit: 'scale-down' }}
               />
             </div>

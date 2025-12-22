@@ -15,7 +15,7 @@ export default function Page() {
           <div className="absolute inset-0 z-0">
             <div className="relative w-full h-full bg-gradient-to-b from-black/60 via-black/40 to-black">
               <img
-                src="/IMG_5815.jpeg"
+                src="/IMG_5814.jpeg"
                 alt="Us"
                 className="absolute inset-0 w-full h-full object-cover object-center opacity-80"
                 style={{ transform: 'scale(1.15)', transformOrigin: 'center center' }}

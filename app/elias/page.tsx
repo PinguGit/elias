@@ -83,7 +83,7 @@ export default function Page() {
           <h2 className="text-4xl md:text-6xl font-bold mb-8">Die kleinen Dinge</h2>
           <div className="mb-6 rounded-xl overflow-hidden h-64 md:h-80">
             <img
-              src="./IMG_5819.jpeg"
+              src="./IMG_5429.jpeg"
               alt="Small moments"
               className="w-full h-full object-cover"
               style={{ objectPosition: 'center 30%' }}

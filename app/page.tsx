@@ -1,65 +1,131 @@
-import Image from "next/image";
+import React from 'react';
 
-export default function Home() {
+export const metadata = {
+  title: 'A Special Christmas Gift',
+  description: 'A love story',
+};
+
+export default function Page() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <main className="bg-black text-white">
+      {/* HERO */}
+      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <div className="relative w-full h-full bg-gradient-to-b from-black/60 via-black/40 to-black">
+            <img
+              src="/IMG_5429.jpeg"
+              alt="Us"
+              className="object-cover opacity-80"
+              style={{ position: 'absolute', top: 0, right: 0, bottom: 0, left: 0 }}
+            />
+          </div>
+        </div>
+
+        <div className="relative z-10 text-center px-6 md:px-4 max-w-4xl mx-4">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">Unsere Geschichte</h1>
+          <p className="text-xl md:text-2xl text-gray-200 animate-fade-in-delay">
+            Dieses Weihnachten wollte ich dir etwas Besonderes schenken
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+
+        <div className="absolute left-1/2 -translate-x-1/2 bottom-8 z-20 animate-bounce">
+          <svg
+            className="w-8 h-8 text-white"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            viewBox="0 0 24 24"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            <path d="M19 14l-7 7-7-7m7 7V3" />
+          </svg>
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* DER ANFANG */}
+      <section className="min-h-screen flex items-center justify-center px-6 md:px-8 py-20">
+        <div className="max-w-4xl text-center mx-4">
+          <h2 className="text-4xl md:text-6xl font-bold mb-8">Der Anfang</h2>
+          <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
+            Von dem Moment an, als wir uns trafen, wusste ich, dass etwas Besonderes
+            zwischen uns ist. Dein Lächeln erhellte den Raum und dein Lachen wurde
+            mein liebster Klang.
+          </p>
+        </div>
+      </section>
+
+      {/* UNSERE REISE */}
+      <section className="min-h-screen flex items-center justify-center px-6 md:px-8 py-20 bg-gradient-to-b from-black to-gray-900">
+        <div className="max-w-4xl mx-4 grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">Unsere Reise</h2>
+            <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
+              Jede gemeinsame Abenteuer mit dir war magisch. Von spontanen Roadtrips
+              bis zu ruhigen Abenden zu Hause — jeder Moment ist ein Schatz.
+            </p>
+          </div>
+
+          <div className="relative h-96 rounded-2xl overflow-hidden">
+            <img
+              src="/IMG_5739.jpeg"
+              alt="Us together"
+              className="object-cover"
+              style={{ position: 'absolute', top: 0, right: 0, bottom: 0, left: 0 }}
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* DIE KLEINEN DINGE */}
+      <section className="min-h-screen flex items-center justify-center px-6 md:px-8 py-20">
+        <div className="max-w-4xl text-center mx-4">
+          <h2 className="text-4xl md:text-6xl font-bold mb-8">Die kleinen Dinge</h2>
+          <div className="mb-6 rounded-xl overflow-hidden h-64 md:h-80">
+            <img src="/IMG_5815.jpeg" alt="Small moments" className="w-full h-full object-cover" />
+          </div>
+          <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
+            Es sind die kleinen Momente, die am meisten zählen. Dein morgendliches
+            Kaffee-Ritual, wie du tanzt, wenn du denkst, niemand sieht zu, und wie
+            du immer weißt, wie du mich zum Lächeln bringst.
+          </p>
+        </div>
+      </section>
+
+      {/* GESCHENK */}
+      <section className="min-h-screen flex items-center justify-center px-6 md:px-8 py-20 bg-gradient-to-b from-gray-900 to-red-950">
+        <div className="max-w-4xl text-center mx-4">
+          <div className="mb-12 text-6xl">🎁</div>
+
+          <h2 className="text-5xl md:text-7xl font-bold mb-8 text-red-100">Dein Geschenk von Herzen</h2>
+
+          <div className="bg-white/10 backdrop-blur-sm rounded-3xl border border-white/20 p-8">
+            <div className="mb-6 rounded-xl overflow-hidden h-48">
+              <img src="/IMG_5819.jpeg" alt="Gift" className="w-full h-full object-cover" />
+            </div>
+            <p className="text-2xl md:text-3xl text-gray-200 leading-relaxed mb-8">
+              Dieses Jahr wollte ich dir etwas schenken, das von Herzen kommt...
+            </p>
+
+            <div className="text-xl md:text-2xl font-semibold text-red-200 mt-8">
+              🎄 [Dein besonderes Geschenk zu Weihnachten] 🎄
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ABSCHLUSS */}
+      <section className="min-h-screen flex items-center justify-center px-6 md:px-8 py-20">
+        <div className="max-w-3xl text-center mx-4">
+          <h2 className="text-4xl md:text-6xl font-bold mb-8">Ich liebe dich</h2>
+          <div className="mb-6 rounded-xl overflow-hidden h-64 md:h-80">
+            <img src="/IMG_5861.jpeg" alt="Together" className="w-full h-full object-cover" />
+          </div>
+          <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
+            Auf viele weitere Abenteuer zusammen. Frohe Weihnachten, meine Liebe. ❤️
+          </p>
+        </div>
+      </section>
+    </main>
   );
 }

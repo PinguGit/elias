@@ -115,9 +115,13 @@ export default function Page() {
       </section>
 
       {/* ABSCHLUSS */}
+      {/* ABSCHLUSS */}
       <section className="min-h-screen flex items-center justify-center px-6 md:px-8 py-20">
         <div className="max-w-3xl text-center mx-4">
           <h2 className="text-4xl md:text-6xl font-bold mb-8">Ich liebe dich</h2>
+          <div className="mb-6 rounded-xl overflow-hidden h-64 md:h-80">
+            <img src="/IMG_5861.jpeg" alt="Together" className="w-full h-full object-cover" />
+          </div>
           <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
             Auf viele weitere Abenteuer zusammen. Frohe Weihnachten, meine Liebe. ❤️
           </p>

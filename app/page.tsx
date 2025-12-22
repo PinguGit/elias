@@ -68,7 +68,7 @@ export default function Page() {
 
           <div className="relative h-96 rounded-2xl overflow-hidden">
             <img
-              src="./IMG_5739.jpeg"
+              src="./public/IMG_5739.jpeg"
               alt="Us together"
               className="object-cover"
               style={{ position: 'absolute', top: 0, right: 0, bottom: 0, left: 0 }}

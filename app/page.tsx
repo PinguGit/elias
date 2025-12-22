@@ -17,8 +17,8 @@ export default function Page() {
               <img
                 src="./IMG_5815.jpeg"
                 alt="Us"
-                className="object-cover opacity-80"
-                style={{ position: 'absolute', top: 0, right: 0, bottom: 0, left: 0 }}
+                className="absolute inset-0 w-full h-full object-cover opacity-80"
+                style ={{ transform: 'scale(1.2)', objectPosition: 'center' }}
               />
             </div>
           </div>
@@ -89,8 +89,7 @@ export default function Page() {
               <img
                 src="./IMG_5429.jpeg"
                 alt="Small moments"
-                className="w-full h-full object-cover"
-                style={{ objectPosition: 'center 30%', objectFit: 'scale-down' }}
+                className="w-full h-full object-cover object-center"
               />
             </div>
             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">

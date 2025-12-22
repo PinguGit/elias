@@ -13,7 +13,7 @@ export default function Page() {
         <div className="absolute inset-0 z-0">
           <div className="relative w-full h-full bg-gradient-to-b from-black/60 via-black/40 to-black">
             <img
-              src="./IMG_5429.jpeg"
+              src="./IMG_5814.jpeg"
               alt="Us"
               className="object-cover opacity-80"
               style={{ position: 'absolute', top: 0, right: 0, bottom: 0, left: 0 }}
@@ -82,7 +82,12 @@ export default function Page() {
         <div className="max-w-4xl text-center mx-4">
           <h2 className="text-4xl md:text-6xl font-bold mb-8">Die kleinen Dinge</h2>
           <div className="mb-6 rounded-xl overflow-hidden h-64 md:h-80">
-            <img src="./IMG_5815.jpeg" alt="Small moments" className="w-full h-full object-cover" />
+            <img
+              src="./IMG_5819.jpeg"
+              alt="Small moments"
+              className="w-full h-full object-cover"
+              style={{ objectPosition: 'center 65%' }}
+            />
           </div>
           <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
             Es sind die kleinen Momente, die am meisten zählen. Dein morgendliches
@@ -100,15 +105,12 @@ export default function Page() {
           <h2 className="text-5xl md:text-7xl font-bold mb-8 text-red-100">Dein Geschenk von Herzen</h2>
 
           <div className="bg-white/10 backdrop-blur-sm rounded-3xl border border-white/20 p-8">
-            <div className="mb-6 rounded-xl overflow-hidden h-48">
-              <img src="./IMG_5819.jpeg" alt="Gift" className="w-full h-full object-cover" />
-            </div>
             <p className="text-2xl md:text-3xl text-gray-200 leading-relaxed mb-8">
               Dieses Jahr wollte ich dir etwas schenken, das von Herzen kommt...
             </p>
 
             <div className="text-xl md:text-2xl font-semibold text-red-200 mt-8">
-              🎄 [Dein besonderes Geschenk zu Weihnachten] 🎄
+              🎄 [Ein Ski Trip auf eine Hütte] 🎄
             </div>
           </div>
         </div>

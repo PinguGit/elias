@@ -13,7 +13,7 @@ export default function Page() {
         <div className="absolute inset-0 z-0">
           <div className="relative w-full h-full bg-gradient-to-b from-black/60 via-black/40 to-black">
             <img
-              src="./IMG_5814.jpeg"
+              src="./IMG_5815.jpeg"
               alt="Us"
               className="object-cover opacity-80"
               style={{ position: 'absolute', top: 0, right: 0, bottom: 0, left: 0 }}

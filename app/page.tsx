@@ -55,6 +55,14 @@ export default function Page() {
               Danke für den tollen Support dieses Jahr. Du hast mir immer gezeigt, dass wir füreinander da sein können und das möchte ich dir gerne zurück geben
             </p>
           </div>
+
+          <div className="relative h-96 rounded-2xl overflow-hidden">
+            <img
+              src="./IMG_5429.jpeg"
+              alt="Us together"
+              className="object-cover w-full h-full"
+            />
+          </div>
         </section>
       </FadeInSection>
 

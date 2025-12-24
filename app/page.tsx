@@ -24,9 +24,9 @@ export default function Page() {
           </div>
 
           <div className="relative z-10 text-center px-6 md:px-4 max-w-4xl mx-4">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6">Unsere Geschichte</h1>
+            <h1 className="text-5xl md:text-7xl font-bold mb-6">Weihnachtszeit</h1>
             <p className="text-xl md:text-2xl text-gray-200">
-              Dieses Weihnachten wollte ich dir etwas Besonderes schenken
+              Schon unser 5. Weihnachtsfest zusammen und ich hoffe es kommen noch viele weitere dazu! 
             </p>
           </div>
 
@@ -50,9 +50,9 @@ export default function Page() {
       <FadeInSection>
         <section className="min-h-screen flex items-center justify-center px-6 md:px-8 py-20">
           <div className="max-w-4xl text-center mx-4">
-            <h2 className="text-4xl md:text-6xl font-bold mb-8">Der Anfang</h2>
+            <h2 className="text-4xl md:text-6xl font-bold mb-8">Support</h2>
             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
-              Von dem Moment an, als wir uns trafen, wusste ich, dass etwas Besonderes zwischen uns ist. Dein Lächeln erhellte den Raum und dein Lachen wurde mein liebster Klang.
+              Danke für den tollen Support dieses Jahr. Du hast mir immer gezeigt, dass wir füreinander da sein können und das möchte ich dir gerne zurück geben❤️
             </p>
           </div>
         </section>
@@ -63,9 +63,9 @@ export default function Page() {
         <section className="min-h-screen flex items-center justify-center px-6 md:px-8 py-20 bg-gradient-to-b from-black to-gray-900">
           <div className="max-w-4xl mx-4 grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">Unsere Reise</h2>
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">Unsere Reisen</h2>
               <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-                Jede gemeinsame Abenteuer mit dir war magisch. Von spontanen Roadtrips bis zu ruhigen Abenden zu Hause — jeder Moment ist ein Schatz.
+                Jedes gemeinsames Abenteuer mit dir war unglaublich toll. Ich hoffe es werden noch viele folgen, vielleicht ja schon ganz bald. 
               </p>
             </div>
 
@@ -84,7 +84,7 @@ export default function Page() {
       <FadeInSection>
         <section className="min-h-screen flex items-center justify-center px-6 md:px-8 py-20">
           <div className="max-w-4xl text-center mx-4">
-            <h2 className="text-4xl md:text-6xl font-bold mb-8">Die kleinen Dinge</h2>
+            <h2 className="text-4xl md:text-6xl font-bold mb-8">Winterwonderland</h2>
             <div className="mb-6 rounded-xl overflow-hidden h-64 md:h-80">
               <img
                 src="./IMG_5429.jpeg"
@@ -94,7 +94,7 @@ export default function Page() {
               />
             </div>
             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
-              Es sind die kleinen Momente, die am meisten zählen. Dein morgendliches Kaffee-Ritual, wie du tanzt, wenn du denkst, niemand sieht zu, und wie du immer weißt, wie du mich zum Lächeln bringst.
+              Wenn wir schon in Bayern wohnen, sollte man das doch auch nutzen oder? Ob Wellness oder Ski fahren, alles ist mit nur einem Katzensprung möglich 👀 <br><br>😄🎄🎅🎁</br></br>
             </p>
           </div>
         </section>
@@ -105,10 +105,10 @@ export default function Page() {
         <section className="min-h-screen flex items-center justify-center px-6 md:px-8 py-20 bg-gradient-to-b from-gray-900 to-red-950">
           <div className="max-w-4xl text-center mx-4">
             <div className="mb-12 text-6xl">🎁</div>
-            <h2 className="text-5xl md:text-7xl font-bold mb-8 text-red-100">Dein Geschenk von Herzen</h2>
+            <h2 className="text-5xl md:text-7xl font-bold mb-8 text-red-100">Dein Geschenk von Elias</h2>
             <div className="bg-white/10 backdrop-blur-sm rounded-3xl border border-white/20 p-8">
               <p className="text-2xl md:text-3xl text-gray-200 leading-relaxed mb-8">
-                Dieses Jahr wollte ich dir etwas schenken, das von Herzen kommt...
+                Dieses Jahr schenke ich dir eine Auszeit deiner Wahl ❤️
               </p>
               <div className="text-xl md:text-2xl font-semibold text-red-200 mt-8">
                 🎄 [Ein Ski Trip auf eine Hütte] 🎄

@@ -87,7 +87,7 @@ export default function Page() {
             <h2 className="text-4xl md:text-6xl font-bold mb-8">Winterwonderland</h2>
             <div className="mb-6 rounded-xl overflow-hidden h-64 md:h-80">
               <img
-                src="./IMG_5429.jpeg"
+                src="./IMG_5861.jpeg"
                 alt="Small moments"
                 className="w-full h-full object-center"
                 style={{ objectFit: 'scale-down' }}
@@ -126,8 +126,8 @@ export default function Page() {
                 </div>
 
                 <div className="text-left">
-                  <div className="text-2xl md:text-3xl text-gray-200 leading-relaxed mb-4">
-                    Dieses Jahr schenke ich dir eine Auszeit deiner Wahl ❤️
+                  <div className="mb-4 rounded-2xl overflow-hidden h-64 md:h-80">
+                    <img src="/IMG_5429.jpeg" alt="Hotel Marlstein" className="w-full h-full object-cover" />
                   </div>
                   <a
                     href="https://marlstein.at/"
@@ -143,8 +143,8 @@ export default function Page() {
 
               <div className="mt-8">
                 <div className="p-6 rounded-lg border border-dashed border-white/10 bg-white/5">
-                  <div className="text-lg font-semibold">Platzhalter: Anderes Hotel</div>
-                  <div className="text-sm text-gray-300 mt-2">Hier kann später ein weiteres Hotel-Link oder Vorschau hinzugefügt werden.</div>
+                  <div className="text-lg font-semibold">Platzhalter:</div>
+                  <div className="text-sm text-gray-300 mt-2">Hier ein Wellness Hotel deiner Wahl einfügen</div>
                 </div>
               </div>
             </div>

@@ -94,7 +94,7 @@ export default function Page() {
               />
             </div>
             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
-              Wenn wir schon in Bayern wohnen, sollte man das doch auch nutzen oder? Ob Wellness oder Ski fahren, alles ist mit nur einem Katzensprung möglich 👀 <br><br>😄🎄🎅🎁</br></br>
+              Wenn wir schon in Bayern wohnen, sollte man das doch auch nutzen oder? Ob Wellness oder Ski fahren, alles ist mit nur einem Katzensprung möglich 👀 <br /><br />😄🎄🎅🎁
             </p>
           </div>
         </section>

@@ -15,7 +15,7 @@ export default function Page() {
           <div className="absolute inset-0 z-0">
             <div className="relative w-full h-full bg-gradient-to-b from-black/60 via-black/40 to-black">
               <img
-                src="./IMG_5815.jpeg"
+                src="./IMG_5819.jpeg"
                 alt="Us"
                 className="absolute inset-0 w-full h-full object-cover object-center opacity-80"
                 style={{ transform: 'scale(1)', transformOrigin: 'center center', objectPosition: 'center 40%' }}
@@ -61,7 +61,7 @@ export default function Page() {
             <div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6">Support</h2>
               <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-                Danke für den tollen Support dieses Jahr. Du hast mir immer gezeigt, dass wir füreinander da sein können und das möchte ich dir gerne zurück geben❤️
+                Danke für den tollen Support dieses Jahr. Du hast mir immer gezeigt, dass wir füreinander da sein können und das möchte ich dir gerne zurück geben. ❤️
               </p>
             </div>
           </div>
@@ -104,7 +104,7 @@ export default function Page() {
               />
             </div>
             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
-              Wenn wir schon in Bayern wohnen, sollte man das doch auch nutzen oder? Ob Wellness oder Ski fahren, alles ist mit nur einem Katzensprung möglich
+              Wenn wir schon in Bayern wohnen, sollte man das doch auch nutzen oder? Ob Wellness oder Ski fahren, alles ist mit nur einem Katzensprung möglich.
             </p>
           </div>
         </section>
@@ -119,6 +119,8 @@ export default function Page() {
             <div className="bg-white/10 backdrop-blur-sm rounded-3xl border border-white/20 p-8">
               <p className="text-2xl md:text-3xl text-gray-200 leading-relaxed mb-8">
                 Dieses Jahr schenke ich dir eine Auszeit deiner Wahl ❤️
+                <br></br>
+                zum Beispiel:
               </p>
               <div className="grid md:grid-cols-2 gap-6 items-center">
                 <div>
@@ -131,7 +133,7 @@ export default function Page() {
                     />
                   </div>
                   <p className="text-sm text-gray-300 mt-2">
-                    Wenn die Seite nicht angezeigt wird, blockiert die Seite möglicherweise das Einbetten (X-Frame-Options).
+                    Wenn die Seite nicht angezeigt wird, blockiert die Seite möglicherweise das Einbetten (Adblocker deaktivieren).
                   </p>
                 </div>
 
@@ -147,7 +149,7 @@ export default function Page() {
                 </div>
               </div>
 
-              <div className="text-xl md:text-2xl font-semibold text-red-200 mt-6">🎄 oder: 🎄</div>
+              <div className="text-xl md:text-2xl font-semibold text-red-200 mt-6">oder:</div>
 
               <div className="mt-8">
                 <div className="p-6 rounded-lg border border-dashed border-white/10 bg-white/5">
@@ -163,12 +165,12 @@ export default function Page() {
       <FadeInSection>
         <section className="min-h-screen flex items-center justify-center px-6 md:px-8 py-20">
           <div className="max-w-3xl text-center mx-4">
-            <h2 className="text-4xl md:text-6xl font-bold mb-8">Ich liebe dich</h2>
+            <h2 className="text-4xl md:text-6xl font-bold mb-8">Ich liebe Dich!</h2>
             <div className="mb-6 rounded-xl overflow-hidden h-64 md:h-80">
-              <img src="./IMG_5861.jpeg" alt="Together" className="w-full h-full object-cover" />
+              <img src="./IMG_6117.jpeg" alt="Together" className="w-full h-full object-cover" />
             </div>
             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
-              Auf viele weitere Abenteuer zusammen. Frohe Weihnachten, meine Liebe. ❤️
+              Auf viele weitere Abenteuer zusammen. Frohe Weihnachten, mein Engel. ❤️
             </p>
           </div>
         </section>

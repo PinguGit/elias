@@ -52,7 +52,7 @@ export default function Page() {
           <div className="max-w-4xl text-center mx-4">
             <h2 className="text-4xl md:text-6xl font-bold mb-8">Support</h2>
             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
-              Danke für den tollen Support dieses Jahr. Du hast mir immer gezeigt, dass wir füreinander da sein können und das möchte ich dir gerne zurück geben❤️
+              Danke für den tollen Support dieses Jahr. Du hast mir immer gezeigt, dass wir füreinander da sein können und das möchte ich dir gerne zurück geben
             </p>
           </div>
         </section>
@@ -94,7 +94,7 @@ export default function Page() {
               />
             </div>
             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
-              Wenn wir schon in Bayern wohnen, sollte man das doch auch nutzen oder? Ob Wellness oder Ski fahren, alles ist mit nur einem Katzensprung möglich 👀 <br /><br />😄🎄🎅🎁
+              Wenn wir schon in Bayern wohnen, sollte man das doch auch nutzen oder? Ob Wellness oder Ski fahren, alles ist mit nur einem Katzensprung möglich
             </p>
           </div>
         </section>

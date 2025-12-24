@@ -50,19 +50,19 @@ export default function Page() {
       <FadeInSection>
         <section className="min-h-screen flex items-center justify-center px-6 md:px-8 py-20 bg-gradient-to-b from-black to-gray-900">
           <div className="max-w-4xl mx-4 grid md:grid-cols-2 gap-12 items-center">
+            <div className="relative h-96 rounded-2xl overflow-hidden">
+              <img
+                src="./IMG_5429.jpeg"
+                alt="Us together"
+                className="object-cover w-full h-full"
+              />
+            </div>
+
             <div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6">Support</h2>
               <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
                 Danke für den tollen Support dieses Jahr. Du hast mir immer gezeigt, dass wir füreinander da sein können und das möchte ich dir gerne zurück geben❤️
               </p>
-            </div>
-
-            <div className="relative h-96 rounded-2xl overflow-hidden">
-              <img
-                src="./IMG_5739.jpeg"
-                alt="Us together"
-                className="object-cover w-full h-full"
-              />
             </div>
           </div>
         </section>
@@ -105,6 +105,7 @@ export default function Page() {
             </div>
             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
               Wenn wir schon in Bayern wohnen, sollte man das doch auch nutzen oder? Ob Wellness oder Ski fahren, alles ist mit nur einem Katzensprung möglich
+              <br /><br />😄🎄🎅🎁
             </p>
           </div>
         </section>

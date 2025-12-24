@@ -48,20 +48,22 @@ export default function Page() {
 
       {/* DER ANFANG */}
       <FadeInSection>
-        <section className="min-h-screen flex items-center justify-center px-6 md:px-8 py-20">
-          <div className="max-w-4xl text-center mx-4">
-            <h2 className="text-4xl md:text-6xl font-bold mb-8">Support</h2>
-            <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
-              Danke für den tollen Support dieses Jahr. Du hast mir immer gezeigt, dass wir füreinander da sein können und das möchte ich dir gerne zurück geben
-            </p>
-          </div>
+        <section className="min-h-screen flex items-center justify-center px-6 md:px-8 py-20 bg-gradient-to-b from-black to-gray-900">
+          <div className="max-w-4xl mx-4 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">Support</h2>
+              <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
+                Danke für den tollen Support dieses Jahr. Du hast mir immer gezeigt, dass wir füreinander da sein können und das möchte ich dir gerne zurück geben❤️
+              </p>
+            </div>
 
-          <div className="relative h-96 rounded-2xl overflow-hidden">
-            <img
-              src="./IMG_5429.jpeg"
-              alt="Us together"
-              className="object-cover w-full h-full"
-            />
+            <div className="relative h-96 rounded-2xl overflow-hidden">
+              <img
+                src="./IMG_5739.jpeg"
+                alt="Us together"
+                className="object-cover w-full h-full"
+              />
+            </div>
           </div>
         </section>
       </FadeInSection>
@@ -95,7 +97,7 @@ export default function Page() {
             <h2 className="text-4xl md:text-6xl font-bold mb-8">Winterwonderland</h2>
             <div className="mb-6 rounded-xl overflow-hidden h-64 md:h-80">
               <img
-                src="./IMG_5429.jpeg"
+                src="./IMG_5861.jpeg"
                 alt="Small moments"
                 className="w-full h-full object-center"
                 style={{ objectFit: 'scale-down' }}
@@ -134,9 +136,6 @@ export default function Page() {
                 </div>
 
                 <div className="text-left">
-                  <div className="mb-4 rounded-2xl overflow-hidden h-64 md:h-80">
-                    <img src="/IMG_5429.jpeg" alt="Hotel Marlstein" className="w-full h-full object-cover" />
-                  </div>
                   <a
                     href="https://marlstein.at/"
                     target="_blank"

@@ -105,7 +105,6 @@ export default function Page() {
             </div>
             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
               Wenn wir schon in Bayern wohnen, sollte man das doch auch nutzen oder? Ob Wellness oder Ski fahren, alles ist mit nur einem Katzensprung möglich
-              <br /><br />😄🎄🎅🎁
             </p>
           </div>
         </section>
@@ -115,7 +114,7 @@ export default function Page() {
       <FadeInSection>
         <section className="min-h-screen flex items-center justify-center px-6 md:px-8 py-20 bg-gradient-to-b from-gray-900 to-red-950">
           <div className="max-w-4xl text-center mx-4">
-            <div className="mb-12 text-6xl">🎁</div>
+            <div className="mb-12 text-6xl">🎄🎅🎁</div>
             <h2 className="text-5xl md:text-7xl font-bold mb-8 text-red-100">Dein Geschenk von Elias</h2>
             <div className="bg-white/10 backdrop-blur-sm rounded-3xl border border-white/20 p-8">
               <p className="text-2xl md:text-3xl text-gray-200 leading-relaxed mb-8">
@@ -145,13 +144,13 @@ export default function Page() {
                   >
                     Zur Marlstein-Webseite
                   </a>
-                  <div className="text-xl md:text-2xl font-semibold text-red-200 mt-6">🎄 Hauptgeschenk: Marlstein Hütte 🎄</div>
                 </div>
               </div>
 
+              <div className="text-xl md:text-2xl font-semibold text-red-200 mt-6">🎄 oder: 🎄</div>
+
               <div className="mt-8">
                 <div className="p-6 rounded-lg border border-dashed border-white/10 bg-white/5">
-                  <div className="text-lg font-semibold">Platzhalter:</div>
                   <div className="text-sm text-gray-300 mt-2">Hier ein Wellness Hotel deiner Wahl einfügen</div>
                 </div>
               </div>

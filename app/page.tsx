@@ -110,8 +110,42 @@ export default function Page() {
               <p className="text-2xl md:text-3xl text-gray-200 leading-relaxed mb-8">
                 Dieses Jahr schenke ich dir eine Auszeit deiner Wahl ❤️
               </p>
-              <div className="text-xl md:text-2xl font-semibold text-red-200 mt-8">
-                🎄 [Ein Ski Trip auf eine Hütte] 🎄
+              <div className="grid md:grid-cols-2 gap-6 items-center">
+                <div>
+                  <div className="rounded-xl overflow-hidden border border-white/10">
+                    <iframe
+                      src="https://marlstein.at/"
+                      title="Marlstein Preview"
+                      className="w-full h-64 md:h-80"
+                      sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
+                    />
+                  </div>
+                  <p className="text-sm text-gray-300 mt-2">
+                    Wenn die Seite nicht angezeigt wird, blockiert die Seite möglicherweise das Einbetten (X-Frame-Options).
+                  </p>
+                </div>
+
+                <div className="text-left">
+                  <div className="text-2xl md:text-3xl text-gray-200 leading-relaxed mb-4">
+                    Dieses Jahr schenke ich dir eine Auszeit deiner Wahl ❤️
+                  </div>
+                  <a
+                    href="https://marlstein.at/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-2 px-5 py-3 bg-red-600 text-white rounded-lg"
+                  >
+                    Zur Marlstein-Webseite
+                  </a>
+                  <div className="text-xl md:text-2xl font-semibold text-red-200 mt-6">🎄 Hauptgeschenk: Marlstein Hütte 🎄</div>
+                </div>
+              </div>
+
+              <div className="mt-8">
+                <div className="p-6 rounded-lg border border-dashed border-white/10 bg-white/5">
+                  <div className="text-lg font-semibold">Platzhalter: Anderes Hotel</div>
+                  <div className="text-sm text-gray-300 mt-2">Hier kann später ein weiteres Hotel-Link oder Vorschau hinzugefügt werden.</div>
+                </div>
               </div>
             </div>
           </div>

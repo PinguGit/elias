@@ -167,7 +167,7 @@ export default function Page() {
           <div className="max-w-3xl text-center mx-4">
             <h2 className="text-4xl md:text-6xl font-bold mb-8">Ich liebe Dich!</h2>
             <div className="mb-6 rounded-xl overflow-hidden h-64 md:h-80">
-              <img src="./IMG_6117.jpeg" alt="Together" className="w-full h-full object-cover" />
+              <img src="./IMG_6117.jpeg" alt="Together" className="w-full h-full object-cover" style={{ transform: 'scale(1)', transformOrigin: 'center center', objectPosition: 'center 10%' }}/>
             </div>
             <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
               Auf viele weitere Abenteuer zusammen. Frohe Weihnachten, mein Engel. ❤️
